@@ -114,7 +114,6 @@
 .search-box img {
     width: 24px;
     cursor: pointer;
-    background: var(--card-img);
 }
 
 .search-box input{
