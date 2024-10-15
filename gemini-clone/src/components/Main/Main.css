@@ -140,6 +140,7 @@
     margin: 15px auto;
     text-align: center;
     font-weight: 300;
+    color: var(--primary-light-color );
 }
 
  .result {
@@ -205,15 +206,19 @@
 }
 
 @media (max-width: 600px) {
+    
+    .main-bottom {
+        padding: 0px 15px;
+    }
     .main-bottom input {
         flex: none;
         flex: 150px;
     }
     .main-bottom img {
-        width: 20px;
+        width: 18px;
     }
     .search-box {
-        padding: 5px, 10px;
+        padding: 5px 10px;
     }
     .search-box div{
         gap: 5px;
