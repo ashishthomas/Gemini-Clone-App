@@ -202,7 +202,7 @@
     color: var(--primary-light-color);
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
     
     .main-bottom {
         padding: 0px 15px;
@@ -215,7 +215,7 @@
         width: 18px;
     }
     .search-box {
-        padding: 5px 10px;
+        padding: 5px 8px;
     }
     .search-box div{
         gap: 5px;
